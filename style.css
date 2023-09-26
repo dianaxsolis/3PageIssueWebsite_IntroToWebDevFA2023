@@ -1,1 +1,142 @@
+@font-face {
+	font-family: NeueMontreal;
+	src: url(ppneuemontrealmedium.otf);
+}
+
+@font-face {
+	font-family: RubikMoonrocks;
+	src: url(RubikMoonrocks-Regular.ttf);
+}
+
+@font-face {
+	font-family: KontesaBold;
+	src: url(KontesaTypeface-ExtraBold.otf);
+}
+
+@font-face {
+	font-family: AbrilFatface;
+	src: url(AbrilFatface-Regular.ttf);
+}
+
+#headerContainer {
+	padding: 0px;
+
+}
+
+#headerImage {
+	display: block;
+	width: 10%;
+	height: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	marig
+}
+
+#headerTitle {
+	font-family: AbrilFatface;
+	text-align: center;
+	font-size: 75px;
+	margin: 0px;
+	color: mediumpurple;
+}
+
+/* https://www.w3schools.com/howto/howto_js_topnav.asp*/
+.topNav { 
+	overflow: hidden;
+	background-color: mediumpurple;
+	display: flex;
+	justify-content: space-around; /*https://stackoverflow.com/questions/42880090/a-better-way-to-space-out-navigation-bar-items*/
+}
+
+.topNav a {
+	float: left;
+	color: ghostwhite;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 30px;
+}
+
+.topNav a:hover {
+	background-color: ghostwhite;
+	color: mediumpurple;
+}
+
+.topNav a.active{
+	background-color: mediumpurple;
+	color: ghostwhite;
+}
+
+#aboutTitle {
+	text-align: center;
+	font-size: 75px;
+	font-family: NeueMontreal;
+	color: black;
+}
+
+#aboutBackground {
+	text-align: center;
+	font-size: 30px;
+	font-family: NeueMontreal;
+	color: mediumpurple;
+	margin: 0px;
+	padding: 20px;
+}
+
+.photoGrid { /* Learned from https://ehtmlu.com/blog/simple-css-image-grid/ b/c w3 made it more complicated */
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(2, 1fr); /* 3 columns */
+	background-color: black;
+}
+
+#homeStats {
+	width: 500px;
+	padding: 50px;
+	display: block;
+}
+
+#imageContainer {
+	width: 100%;
+	padding: 50px;
+	display: block;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#stats {
+	display: block;
+	float: left;
+	width: 40%;
+	font-size: 100px;
+	font-family: NeueMontreal;
+	color: rebeccapurple;
+}
+
+#stat1Info {
+	display: block;
+	float: right;
+	font-size: 50px;
+	font-family: NeueMontreal;
+	margin: 0 auto;
+}
+
+#stat2Info {
+	display: block;
+	float: right;
+	height: auto;
+	width: 100%;
+	font-size: 50px;
+	font-family: NeueMontreal;
+	font-stretch: 150%;
+	margin: 0 auto;
+	justify-content: right;
+}
+
+#statsImage {
+	width: 75%;
+	padding: 100px;
+}
+
 
