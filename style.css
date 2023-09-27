@@ -18,6 +18,9 @@
 	src: url(AbrilFatface-Regular.ttf);
 }
 
+/* A lot of these techniques are all very similar and repeated in order to ensure my website fits my needs in sectioning and balancing. */
+
+
 /* HOMEPAGE CSS */
 
 #headerContainer {
@@ -42,7 +45,6 @@
 	color: mediumpurple;
 }
 
-/* https://www.w3schools.com/howto/howto_js_topnav.asp*/
 .topNav { 
 	overflow: hidden;
 	background-color: mediumpurple;
@@ -139,14 +141,14 @@
 	padding: 100px;
 }
 
-/*END OF HOMEPAGE CSS */
+/* END OF HOMEPAGE CSS */
 
 /* START OF CASES CSS */
 
 #headerCases {
 	font-family: AbrilFatface;
 	text-align: center;
-	font-size: 75px;
+	font-size: 50px;
 }
 
 /* CASE ONE */
@@ -249,4 +251,24 @@
 	font-size: 20px;
 
 	text-align: left;
+}
+
+/* END OF CASES CSS */
+
+/* START OF PETITIONS CSS */
+
+#infoPetitions {
+	display: flex;
+	margin-left: 200px;
+}
+
+#petition1 {
+	display: flex;
+	margin-left: 200px;
+}
+
+#petition1Header {
+	font-family: AbrilFatface;
+	text-align: center;
+	font-size: 50px;
 }
