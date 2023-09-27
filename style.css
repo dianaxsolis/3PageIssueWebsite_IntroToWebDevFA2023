@@ -97,7 +97,7 @@
 	display: block;
 }
 
-#imageContainer {
+#Container {
 	width: 50%;
 	padding: 50px;
 	display: block;
@@ -139,6 +139,114 @@
 	padding: 100px;
 }
 
-/*END OF HOMEPAGE HTML*/
+/*END OF HOMEPAGE CSS */
 
+/* START OF CASES CSS */
 
+#headerCases {
+	font-family: AbrilFatface;
+	text-align: center;
+	font-size: 75px;
+}
+
+/* CASE ONE */
+
+#case1 {
+ 	height: 100%;
+ 	width: 50%;
+ 	text-align: center;
+}
+
+#case1pic {
+ 	height: 300px;
+ 	margin-top: -500px;
+ 	margin-left: 825px;
+}
+
+#case1Header {
+	margin-top: 50px;
+	margin-left: 80px;
+
+	font-family: AbrilFatface;
+	font-size: 50px;
+
+	text-align: left; 
+	color: mediumpurple;
+}
+
+#case1Description {
+	margin-left: 80px;
+
+	font-family: NeueMontreal;
+	font-size: 20px;
+
+	text-align: left;
+}
+
+/* CASE TWO */
+
+#case2 {
+	height: 100%;
+	width: 50%;
+	text-align: center;
+}
+
+#case2pic {
+	height: 300px;
+	margin-top: -300px;	
+	margin-left: 825px;
+}
+
+#case2Header {
+	margin-left: 80px;
+	
+	font-family: AbrilFatface;
+	font-size: 50px;
+
+	text-align: left;
+	color: mediumpurple;
+}
+
+#case2Description {
+	margin-left: 80px;
+	margin-bottom: 20px;
+
+	font-family: NeueMontreal;
+	font-size: 20px;
+
+	text-align: left;
+}
+
+/* CASE THREE */
+
+#case3 {
+	height: 100%;
+	width: 50%;
+	text-align: center;
+}
+
+#case3pic {
+	height: 300px;
+	margin-top: -300px;	
+	margin-left: 825px;
+}
+
+#case3Header {
+	margin-left: 80px;
+	
+	font-family: AbrilFatface;
+	font-size: 50px;
+
+	text-align: left;
+	color: mediumpurple;
+}
+
+#case3Description {
+	margin-left: 80px;
+	margin-bottom: 20px;
+
+	font-family: NeueMontreal;
+	font-size: 20px;
+
+	text-align: left;
+}
